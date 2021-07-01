@@ -1,4 +1,4 @@
-# flutter_arquitura
+# arquitetura
 
 A new Flutter project.
 
