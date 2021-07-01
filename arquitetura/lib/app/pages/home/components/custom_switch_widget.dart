@@ -1,4 +1,4 @@
-import 'package:arquitetura/app/controllers/app_controller.dart';
+import 'package:arquitetura/app/services/app_controller.dart';
 import 'package:flutter/material.dart';
 
 class CustomSwitchWidget extends StatelessWidget {
