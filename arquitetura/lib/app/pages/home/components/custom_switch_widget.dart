@@ -1,4 +1,4 @@
-import 'package:arquitetura/app/services/app_controller.dart';
+import 'package:arquitetura/viewmodels/app_controller.dart';
 import 'package:flutter/material.dart';
 
 class CustomSwitchWidget extends StatelessWidget {
@@ -11,7 +11,7 @@ class CustomSwitchWidget extends StatelessWidget {
     return Switch(
       value: AppController.instance.isDark,
       onChanged: (value) {
-        AppController.instance.changeTheme(value);
+        AppController.instance.changeThemeViewModel.changeTheme(value);
       },
     );
   }
